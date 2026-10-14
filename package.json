@@ -1,0 +1,38 @@
+{
+  "name": "discord-bot-starter",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.ts",
+    "dev": "node --env-file-if-exists=.env --watch src/index.ts",
+    "register": "node --env-file-if-exists=.env scripts/register.ts",
+    "invite": "node --env-file-if-exists=.env scripts/invite.ts",
+    "setup": "playwright install chromium",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "node --test \"tests/**/*.test.ts\"",
+    "check": "node checks/run.mjs",
+    "shots": "node scripts/shots.ts",
+    "avatar": "node scripts/make-avatar.ts"
+  },
+  "dependencies": {
+    "discord.js": "14.27.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.0",
+    "@types/node": "24.19.2",
+    "eslint": "10.12.0",
+    "typescript": "7.0.2",
+    "typescript-eslint": "8.71.1",
+    "typescript-for-lint": "npm:typescript@6.0.3"
+  },
+  "overrides": {
+    "typescript": "$typescript"
+  }
+}
