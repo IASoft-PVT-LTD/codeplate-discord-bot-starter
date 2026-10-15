@@ -1,0 +1,15 @@
+{
+  "$schema": "https://codeplate.io/schema/assets-0.json",
+  "assets": [
+    {
+      "path": "assets/avatar.png",
+      "kind": "image",
+      "width": 512,
+      "height": 512,
+      "use": "The bot's avatar: upload it in the Developer Portal (your app → Bot → Icon, and General Information → App Icon). Also drawn as the bot's picture in npm run shots. Discord crops it to a circle, so keep the subject inside the middle 80%.",
+      "license": "CodePlate-original",
+      "credit": "CodePlate",
+      "source": "scripts/make-avatar.ts"
+    }
+  ]
+}

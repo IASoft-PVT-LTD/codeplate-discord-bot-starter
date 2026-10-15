@@ -1,0 +1,49 @@
+{
+  "$schema": "https://codeplate.io/schema/codeplate-0.json",
+  "spec": 0,
+  "id": "discord-bot-starter",
+  "name": "Discord Bot Starter",
+  "version": "1.0.2",
+  "kind": "app",
+  "summary": "A Discord community bot in TypeScript: slash commands, buttons, forms, reminders that survive restarts, SQLite, and checks with no token.",
+  "tags": [
+    "discord",
+    "bot",
+    "discord-js",
+    "typescript",
+    "node",
+    "sqlite",
+    "slash-commands",
+    "community"
+  ],
+  "stack": [
+    {
+      "name": "node",
+      "version": "24"
+    },
+    {
+      "name": "discord.js",
+      "version": "14.27.0"
+    },
+    {
+      "name": "typescript",
+      "version": "7.0.2"
+    }
+  ],
+  "checks": {
+    "command": "npm ci && npm run check",
+    "requires": [
+      "node"
+    ]
+  },
+  "license": "CodePlate-Free-1.2",
+  "tier": "free",
+  "media": [
+    "docs/media/poll.png",
+    "docs/media/welcome-setup.png",
+    "docs/media/help.png",
+    "docs/media/remind.png",
+    "docs/media/tag.png",
+    "docs/media/quote.png"
+  ]
+}
