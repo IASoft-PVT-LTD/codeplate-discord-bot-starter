@@ -1,6 +1,6 @@
-# CodePlate Free License 1.2
+# CodePlate Free License 1.3
 
-Copyright (c) IASoft. All rights reserved except as granted below.
+Copyright (c) 2026 IASoft PVT LTD. All rights reserved except as granted below.
 
 "Template" means the files in this folder as provided by CodePlate (codeplate.io).
 "Your Project" means software, games or other works you make using the Template, including works your AI agents make for you.

@@ -3,7 +3,7 @@
   "spec": 0,
   "id": "discord-bot-starter",
   "name": "Discord Bot Starter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "kind": "app",
   "summary": "A Discord community bot in TypeScript: slash commands, buttons, forms, reminders that survive restarts, SQLite, and checks with no token.",
   "tags": [
@@ -36,7 +36,7 @@
       "node"
     ]
   },
-  "license": "CodePlate-Free-1.2",
+  "license": "CodePlate-Free-1.3",
   "tier": "free",
   "media": [
     "docs/media/poll.png",
