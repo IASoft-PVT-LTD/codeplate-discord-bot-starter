@@ -1,6 +1,6 @@
 # Discord Bot Starter
 
-> **Free CodePlate template, v1.0.3.** This repository mirrors the zip on [codeplate.io](https://codeplate.io/t/discord-bot-starter/).
+> **Free CodePlate template, v1.0.4.** This repository mirrors the zip on [codeplate.io](https://codeplate.io/t/discord-bot-starter/).
 > Press **Use this template** to start your own repository from it, or [download the zip](https://codeplate.io/t/discord-bot-starter/).
 > [All templates](https://codeplate.io/) · [Free License](https://codeplate.io/license/free/) · subscribers get it under the [Pro License](https://codeplate.io/license/pro/) with no credit.
 
@@ -49,6 +49,10 @@ npm run register              # send the commands to Discord
 npm run invite                # the link that adds the bot to your server
 npm run dev                   # run it (restarts when files change)
 ```
+
+## How this template was made
+
+This template was written largely by AI coding agents (Claude, by Anthropic). IASoft reviewed and tested the work. The template's checks run on every change. To test it, a fresh agent was given a made-up project and a set of change requests to carry out with the template. The record of that run is at [codeplate.io/t/discord-bot-starter/eval/](https://codeplate.io/t/discord-bot-starter/eval/).
 
 ## License
 

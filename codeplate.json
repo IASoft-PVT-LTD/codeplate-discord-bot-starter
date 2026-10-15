@@ -3,7 +3,7 @@
   "spec": 0,
   "id": "discord-bot-starter",
   "name": "Discord Bot Starter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "kind": "app",
   "summary": "A Discord community bot in TypeScript: slash commands, buttons, forms, reminders that survive restarts, SQLite, and checks with no token.",
   "tags": [
